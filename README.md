@@ -405,20 +405,20 @@ trainset = pd.concat([trainset, train[['hour_of_day', 'is_weekend']]], axis=1)
 ```
 fraud-detection-ensemble/
 │
-├── model.py                        # Main training script
-├── README.md                       # This file
-├── requirements.txt                # Dependencies
-├── .gitignore
-├── LICENSE                         # MIT License
+├── model.py                        # Main training script                 # ✅ Upload
+├── README.md                       # This file                            # ✅ Upload
+├── requirements.txt                # Dependencies                         # ✅ Upload
+├── .gitignore                                                             # ✅ Upload
+├── LICENSE                         # MIT License                          # ✅ Upload
 │
 ├── Credit_Card_Fraud_Detection_Model/
     ├── open/
-    │   ├── train.csv              # 227,845 rows × 31 cols
-    │   ├── val.csv                # 56,962 rows × 31 cols
-    │   └── test.csv               # 28,481 rows × 30 cols (no labels)
+    │   ├── train.csv              # 227,845 rows × 31 cols                # ❌ NOT uploaded (too large)
+    │   ├── val.csv                # 56,962 rows × 31 cols                 # ❌ NOT uploaded 
+    │   └── test.csv               # 28,481 rows × 30 cols (no labels)     # ❌ NOT uploaded 
     │
     └── save/
-        └── result.csv             # Output predictions
+        └── result.csv             # Output predictions                    # ❌ NOT uploaded (Output File)
 
 ```
 
