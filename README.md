@@ -39,8 +39,8 @@ A production-ready fraud detection pipeline using EllipticEnvelope for anomaly s
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/fraud-detection-ensemble.git
-cd fraud-detection-ensemble
+git clone https://github.com/spbraden2007-ux/Credit_Card_Fraud_Detection_Model.git
+cd Credit_Card_Fraud_Detection_Model
 
 # Install dependencies
 pip install numpy pandas scikit-learn lightgbm optuna torch tqdm --break-system-packages
