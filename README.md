@@ -408,19 +408,18 @@ fraud-detection-ensemble/
 ├── model.py                        # Main training script
 ├── README.md                       # This file
 ├── requirements.txt                # Dependencies
+├── .gitignore
+├── LICENSE                         # MIT License
 │
 ├── Credit_Card_Fraud_Detection_Model/
-│   ├── open/
-│   │   ├── train.csv              # 227,845 rows × 31 cols
-│   │   ├── val.csv                # 56,962 rows × 31 cols
-│   │   └── test.csv               # 28,481 rows × 30 cols (no labels)
-│   │
-│   └── save/
-│       └── result.csv             # Output predictions
-│
-└── docs/
-    ├── optuna_study.db            # Hyperparameter trial history
-    └── feature_importance.png      # SHAP/LightGBM plots
+    ├── open/
+    │   ├── train.csv              # 227,845 rows × 31 cols
+    │   ├── val.csv                # 56,962 rows × 31 cols
+    │   └── test.csv               # 28,481 rows × 30 cols (no labels)
+    │
+    └── save/
+        └── result.csv             # Output predictions
+
 ```
 
 ---
