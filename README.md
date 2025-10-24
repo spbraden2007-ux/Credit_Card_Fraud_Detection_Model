@@ -1,8 +1,12 @@
 # Credit Card Fraud Detection Model
 
-> Ensemble anomaly detection system combining unsupervised outlier detection with gradient boosting, achieving **0.93 F1-macro on Dacon Public Leaderboard** (314 fraud cases identified from 284,807 transactions with 0.17% fraud rate)
+**Research Internship Project | Jeonju University AI Lab | Jan-Feb 2024**  
+**🏆 0.93 F1-macro on Dacon Public Leaderboard**
 
-A production-ready fraud detection pipeline using EllipticEnvelope for anomaly scoring and LightGBM with Optuna hyperparameter optimization. Handles extreme class imbalance (0.17% fraud rate) through intelligent pseudo-labeling and ensemble voting.
+> Ensemble anomaly detection system combining unsupervised outlier detection with gradient boosting, achieving **0.93 F1-macro on Dacon competition** and **94% detection accuracy** during research internship. Developed at Jeonju University AI Lab under supervision of Professor Sunwoo Ko, focusing on extreme class imbalance (588:1 ratio) through intelligent pseudo-labeling and Bayesian hyperparameter optimization.
+
+A production-ready fraud detection pipeline using EllipticEnvelope for anomaly scoring and LightGBM with Optuna hyperparameter optimization. Handles 284,807 transactions with 0.17% fraud rate through ensemble voting strategy.
+
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)
