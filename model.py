@@ -1,19 +1,24 @@
 """
 Credit Card Fraud Detection - Ensemble Learning Pipeline
-Combines EllipticEnvelope anomaly detection with LightGBM gradient boosting,
-optimized via Optuna Bayesian hyperparameter search for extreme class imbalance (588:1).
 
-Author: Seohyun Park
-Date: October 2025
-License: MIT
-GitHub: https://github.com/spbraden2007-ux/Credit_Card_Fraud_Detection_Model
+Research Internship Project
+═══════════════════════════
+Institution: Jeonju University AI Lab
+Position: Research Intern
+Duration: January 2024 - February 2024 (2 months)
+Supervisor: Professor Sunwoo Ko
+Location: Jeonju Metropolitan Area, South Korea
 
-Technical Details:
-- Dataset: 284,807 transactions (0.17% fraud rate) from Dacon competition
-  Competition URL: https://dacon.io/competitions/official/235930/data 
-- Method: Pseudo-labeling via anomaly scores → supervised learning → ensemble voting
-- Performance: 0.93 F1-macro (Dacon Public Leaderboard), 0.87 CV F1-macro (5-fold)
-- Optimization: 500 Optuna trials targeting macro F1-score
+Research Focus:
+- End-to-end ML workflow for fraud detection
+- Model selection and tuning
+- Class imbalance via pseudo-labeling
+- Technical report and faculty demo
+
+Performance: 
+- 0.93 F1-macro (Dacon Public Leaderboard)
+- 94% accuracy (Institutional Dataset)
+- 0.87 F1-macro (5-fold CV)
 """
 
 import numpy as np 
